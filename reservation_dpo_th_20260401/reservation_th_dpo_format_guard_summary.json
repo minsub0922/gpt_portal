@@ -1,0 +1,38 @@
+{
+  "usable_source_records": 46,
+  "skipped_indices": [
+    2,
+    9,
+    10,
+    48
+  ],
+  "eval_source_indices": [
+    0,
+    7,
+    11,
+    13,
+    17,
+    18,
+    19,
+    37,
+    41,
+    46
+  ],
+  "pool_pairs": 1288,
+  "train_pairs": 1003,
+  "eval_pairs": 285,
+  "fail_pairs": 667,
+  "pass_pairs": 621,
+  "negative_pattern_focus": [
+    "raw source title copy",
+    "markdown code fences",
+    "Explanation text after JSON",
+    "top-level {\"text\": ...} wrapper",
+    "empty array for valid reservation",
+    "filler placeholders such as ไม่มีข้อมูล / null",
+    "single object instead of JSON array",
+    "wrong category or sub_category drift",
+    "generic title such as ยืนยันการจอง / รายละเอียดการจอง / การจอง",
+    "array plus note / preamble / XML-like wrappers"
+  ]
+}
